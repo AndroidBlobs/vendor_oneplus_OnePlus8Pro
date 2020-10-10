@@ -1,0 +1,11 @@
+service hapticImgScreencap    /system_ext/bin/hapticscreencap
+    class main
+    user  root
+    group root
+    disabled
+
+service hapticGetEvent    /system/bin/getevent
+    class main
+    user  root
+    group root
+    disabled
